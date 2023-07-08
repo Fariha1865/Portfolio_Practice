@@ -180,4 +180,9 @@ main{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    
+}
+.skill{
+    padding: 33px;
+    gap:24px
 }
