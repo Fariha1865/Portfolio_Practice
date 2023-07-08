@@ -162,3 +162,22 @@ main{
     margin-top: 10px;
     font-weight: bold;
 }
+
+#what_i_do_des{
+    padding: 30px 150px;
+    color: var(--dark-03, #757575);
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+
+}
+
+.skills{
+    margin-top: 130px;
+}
+
+.skils_container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
