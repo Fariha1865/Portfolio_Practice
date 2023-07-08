@@ -11,19 +11,27 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
+.header{
+    background-color: #FFF8F3;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    
+}
 .navbar{
     display:flex;
     justify-content: space-between;
-    text-align: center;
     padding: 30px;
-    margin: 30px;
+    margin: 0px 200px;
+    align-items: center;
 }
-.Logo{
+.Logo{ 
 
     color: Dark 01;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
+    
 
 }
 .menus{
@@ -36,20 +44,18 @@ body{
 
     
 }
+
 .li{
     padding-left: 40px;
-    
-    
-    
 }
+
 .a{
 
     text-decoration: none;
     color: black;
     font-weight: normal;
-    
-   
 }
+
 .orange{
     color: #FD6E0A;
 }
@@ -64,5 +70,43 @@ body{
     font-size: 20px;
     font-weight: 700;
     
+}
 
+.banner{
+
+   padding: 30px 30px 0px 150px ;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   height: ;
+}
+
+.banner_pic{
+    width: 550px;
+    height: 640px;
+}
+
+.hi{
+
+    font-size: 45px;
+    color: #474747;
+}
+
+.banner_header{
+    font-size: 85px;
+    color: #181818;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    max-width: 500px;
+}
+
+.header_text{
+
+    font-size: 18px;
+    margin-bottom: 30px;
+
+}
+
+.btn{
+    margin-left: 20px;
 }
