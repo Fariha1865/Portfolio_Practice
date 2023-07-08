@@ -16,6 +16,10 @@ main{
     margin: 0 auto;
 }
 
+main section{
+    margin-top: 130px;
+}
+
 .header{
     background-color: #FFF8F3;
     background-image: url('../images/header_bg.png');
@@ -128,6 +132,8 @@ main{
     font-size: 35px;
     font-style: normal;
     font-weight: 700;
+    margin-bottom: 10px;
+    
 
 }
 
@@ -172,17 +178,24 @@ main{
 
 }
 
-.skills{
+main > section{
     margin-top: 130px;
 }
 
 .skils_container{
     display: flex;
-    justify-content: space-around;
+    /* justify-content: space-around; */
     align-items: center;
+    gap:24px
     
 }
 .skill{
     padding: 33px;
-    gap:24px
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    text-align: center;
+
+}
+.skill_description{
+    color: #757575;
 }
