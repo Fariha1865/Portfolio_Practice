@@ -11,6 +11,11 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
+main{
+    /* max-width: 1140px; */
+    margin: 0 auto;
+}
+
 .header{
     background-color: #FFF8F3;
     background-image: url('../images/header_bg.png');
@@ -109,4 +114,51 @@ body{
 
 .btn{
     margin-left: 20px;
+}
+
+.about{
+    margin: 114px 230px 130px 230px;
+    padding: 110px;
+    background: #ecdcd0;
+}
+.section_title{
+
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+
+}
+
+.section_description{
+    color: #1b1b1b;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    color: #757575;
+
+}
+
+.about_info_container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    text-align: center;
+   
+    
+}
+
+.about_info{
+    margin-top: 10px;
+    
+}
+
+.info_title{
+    color: #757575;
+}
+.info_description{
+    
+    margin-top: 10px;
+    font-weight: bold;
 }
