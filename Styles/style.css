@@ -246,5 +246,22 @@ main > section{
 }
 .social_links{
     text-align: center;
+    margin-top: 10px;
   
+}
+
+.footer_column{
+
+    width: 50%;
+
+}
+
+.contact_form input[type="text"],input[type="email"],textarea{
+    display: block;
+    margin-bottom: 24px;
+    padding: 18px 35px;
+    color:#757575;
+    border: 0px;
+    border-radius: 5px;
+    width: 100%;
 }
