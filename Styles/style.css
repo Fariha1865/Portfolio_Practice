@@ -87,7 +87,7 @@ main section{
    display: flex;
    align-items: center;
    justify-content: space-between;
-   height: ;
+  
 }
 
 .banner_pic{
@@ -186,7 +186,9 @@ main > section{
     display: flex;
     /* justify-content: space-around; */
     align-items: center;
-    gap:24px
+    gap:24px;
+    margin: 0px 240px;
+    
     
 }
 .skill{
@@ -198,4 +200,38 @@ main > section{
 }
 .skill_description{
     color: #757575;
+}
+
+.resume_container{
+    display: flex;
+    gap: 50px;
+    margin: 0px 240px;
+}
+.resume_column_title{
+    color: #474747;
+    font-size: 30px;
+    font-style: normal;
+
+}
+.resume_title_description{
+    color: #757575;
+    font-size: 16px;
+    font-style: normal;
+
+}
+
+.resume_container hr{
+    margin: 30px ;
+}
+
+.resume_title_info{
+    
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+
+.download_cv{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    text-align: center;
 }
