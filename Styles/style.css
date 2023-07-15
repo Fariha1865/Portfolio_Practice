@@ -33,6 +33,11 @@ main section{
     padding: 30px;
     margin: 0px 200px;
     align-items: center;
+    /* position: fixed; */
+
+  
+  
+    
 }
 .Logo{ 
 
@@ -40,6 +45,8 @@ main section{
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
+    position: sticky;
+   
     
 
 }
@@ -50,12 +57,15 @@ main section{
     margin-top: 20px;
     color: #474747;
     align-items: center;
+    
+
 
     
 }
 
 .li{
     padding-left: 40px;
+    
 }
 
 .a{
@@ -253,7 +263,7 @@ main > section{
     margin-right: 24px;
 }
 
-.footer_column{
+.footer_column_1,.footer_column_2{
 
     width: 50%;
 
@@ -267,4 +277,98 @@ main > section{
     border: 0px;
     border-radius: 5px;
     width: 100%;
+}
+
+.hide{
+    display: none;
+}
+
+@media screen and (max-width: 576px){
+
+    header,.banner{
+        margin: 0px;
+    }
+    .navbar{
+        flex-direction: column;
+        margin: 0px;
+    }
+    .btn_primary{
+        padding: 5px 10px;
+    }
+  
+    .header{
+        background-size: 40%;
+    }
+    .banner{
+        flex-direction: column;
+        padding: 0px 20px;
+        margin: 0px;
+
+    }
+    .banner_pic{
+        width: 90%;
+    }
+
+    .about{
+        margin: 30px 60px;
+        padding: 30px;
+    }
+    .about_info_container{
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+    .section_description,#what_i_do_des{
+        padding: 0px;
+        margin: 0px 30px;
+    }
+    .skils_container{
+        flex-direction: column;
+        margin: 4px;
+    }
+    .resume_container {
+        margin: 10px 30px;
+        flex-direction: column-reverse;
+    }
+    .section_title{
+        margin-bottom: 30px;
+    }
+
+    .footer_column>input{
+        width: 70%;
+    }
+    .footer{
+        flex-direction: column;
+        padding: 30px;
+    }
+    .contact_form textarea {
+
+        height: 70px;
+
+    }
+    .contact_form > .btn_primary{
+        margin: 0px 50%;
+    }
+    .section_description{
+        margin: 0px;
+        text-align: center;
+    }
+    .section_title,.section_description{
+
+
+        text-align: center;
+
+    }
+
+    .footer_column_1{
+
+        margin: 0px 25%;
+    }
+    .footer_column_2{
+
+        margin: 0px 15%;
+        
+    }
+    .footer_header{
+        margin-left: 25%;
+    }
 }
